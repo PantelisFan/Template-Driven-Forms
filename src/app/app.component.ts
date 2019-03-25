@@ -12,7 +12,9 @@ export class AppComponent {
   topics = ['Angular', 'React', 'Vue'];
   userModel = new User('', 'test@service.io', 0, 'default', 'morning', true);
   topicHasError = true;
+
   submitted = false;
+  
   errorMsg = '';
 
   constructor(private _enrollmentService: EnrollmentService) {}
